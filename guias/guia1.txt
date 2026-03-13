@@ -1,0 +1,203 @@
+GUIA DE EJERCICIOS - INTRODUCCION A BASH SCRIPTING
+
+Objetivo: aprender bash desde lo mas basico hasta scripts que interactuen con archivos y el sistema.
+
+--------------------------------------------------
+NIVEL 1 - INPUT Y OUTPUT
+Conceptos: echo, read, variables
+
+Ejercicio 1
+Crear un script que imprima en pantalla:
+
+Hola mundo
+
+Concepto: comando echo.
+
+
+Ejercicio 2
+Crear un script que pida el nombre del usuario y luego lo salude.
+
+Ejemplo de ejecucion:
+
+Ingrese su nombre:
+Lucio
+Hola Lucio
+
+Conceptos:
+read
+variables
+
+
+Ejercicio 3
+Crear un script que pida un numero y lo muestre por pantalla.
+
+Ejemplo:
+
+Ingrese un numero:
+5
+El numero ingresado es: 5
+
+
+--------------------------------------------------
+NIVEL 2 - CONDICIONALES
+Conceptos: if, comparaciones
+
+
+Ejercicio 4
+Crear un script que pida un numero y diga si es positivo o negativo.
+
+Ejemplo:
+
+Ingrese un numero:
+-3
+El numero es negativo
+
+
+Ejercicio 5
+Crear un script que pida un numero y diga si es par o impar.
+
+
+Ejercicio 6
+Crear un script que pida la edad del usuario y determine si es:
+
+Menor de edad
+Mayor de edad
+
+Conceptos:
+comparadores
+-gt mayor que
+-lt menor que
+-eq igual
+
+
+--------------------------------------------------
+NIVEL 3 - LOOPS
+Conceptos: for, while
+
+
+Ejercicio 7
+Crear un script que muestre los numeros del 1 al 10.
+
+
+Ejercicio 8
+Crear un script que pida numeros continuamente hasta que el usuario ingrese 0.
+
+
+Ejercicio 9
+Crear un script que pida un numero y muestre su tabla de multiplicar.
+
+Ejemplo:
+
+Ingrese un numero:
+5
+
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+
+
+--------------------------------------------------
+NIVEL 4 - ARCHIVOS Y SISTEMA
+Conceptos: archivos, wildcards
+
+
+Ejercicio 10
+Crear un script que pida un nombre de archivo y verifique si existe.
+
+Salida esperada:
+
+El archivo existe
+
+o
+
+El archivo no existe
+
+
+Ejercicio 11
+Crear un script que cuente cuantos archivos hay en el directorio actual.
+
+
+Ejercicio 12
+Crear un script que liste todos los archivos .txt.
+
+
+Ejercicio 13
+Crear un script que:
+
+1. pida una extension
+2. busque archivos con esa extension
+3. los muestre en pantalla
+
+
+--------------------------------------------------
+NIVEL 5 - PIPES Y COMANDOS DE LINUX
+
+
+Ejercicio 14
+Crear un script que cuente cuantos archivos .txt hay en el directorio.
+
+
+Ejercicio 15
+Crear un script que muestre el archivo mas grande del directorio actual.
+
+
+Ejercicio 16
+Crear un script que muestre las 5 lineas mas largas de un archivo.
+
+
+Ejercicio 17
+Crear un script que:
+
+1. pida una extension
+2. cuente los archivos con esa extension
+3. los liste
+
+Ejemplo de salida:
+
+Hay 3 archivos .pdf
+
+archivo1.pdf
+archivo2.pdf
+archivo3.pdf
+
+
+--------------------------------------------------
+NIVEL 6 - SCRIPT MAS COMPLETO
+
+
+Ejercicio 18
+
+Crear un script que:
+
+1. pida una carpeta
+2. verifique si la carpeta existe
+3. cuente cuantos archivos hay dentro
+4. muestre los archivos mas grandes
+
+Conceptos trabajados:
+validacion
+pipes
+comandos de sistema
+estructura de scripts
+
+
+--------------------------------------------------
+
+Conceptos de bash que se practican en esta guia:
+
+echo
+read
+variables
+if
+comparadores
+operaciones matematicas
+for
+while
+archivos
+wildcards
+pipes
+comandos linux
+scripts completos
+
+--------------------------------------------------
